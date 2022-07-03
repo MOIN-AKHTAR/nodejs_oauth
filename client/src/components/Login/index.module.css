@@ -1,0 +1,100 @@
+.loginContainer {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  height: 70%;
+  box-shadow: -15px -6px 27px 0px rgba(230, 230, 230, 0.75);
+  -webkit-box-shadow: -15px -6px 27px 0px rgba(230, 230, 230, 0.75);
+  -moz-box-shadow: -15px -6px 27px 0px rgba(230, 230, 230, 0.75);
+  height: calc(100vh - 180px);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 50px);
+}
+
+.right,
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 90%;
+  color: #fff;
+}
+
+.left button:nth-child(1) {
+  background: red;
+}
+.left button:nth-child(2) {
+  background: blue;
+}
+.left button:nth-child(3) {
+  background: black;
+}
+
+.right input {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+
+.right button {
+  width: 150px;
+  padding: 15px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.line {
+  width: 1px;
+  height: 90%;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.or {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: #eee;
+  font-weight: bolder;
+}
